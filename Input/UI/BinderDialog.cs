@@ -21,12 +21,10 @@ public class BinderDialog : MonoBehaviour
         public GameObject content;
         public GameObject scrollBar;
     }
-
     void Awake()
     {
        // tabRoot = new GameObject("TabRoot", typeof<RectTransform>)
     }
-
 
     public void Open()
     {
