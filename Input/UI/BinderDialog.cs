@@ -87,8 +87,6 @@ public class BinderDialog : MonoBehaviour
 
         bindings.content.GetComponent<ContentSizeFitter>().verticalFit = ContentSizeFitter.FitMode.PreferredSize;
 
-
-        
         return bindings;
     }
 
