@@ -6,7 +6,7 @@ namespace Boostrapper
 {
     public abstract class Manager
     {
-        protected static List<Manager> _globalManagers;
+        protected static List<Manager> _globalManagers = new List<Manager>();
         protected static Dictionary<string, List<Manager>> _groupedManagers;
 
         protected Manager()
